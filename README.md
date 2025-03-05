@@ -5,6 +5,6 @@ This repository contains CAD files, KiCad project files, and firmware for the ca
 
 ## Hardware Specifications
 
-- As of 3/5/25, the microcontroller will be a **STM32H723ZGT6**
+- As of 3/5/25, the microcontroller will be a [**STM32H723ZGT6**](https://www.digikey.com/en/products/detail/stmicroelectronics/STM32H723ZGT6/13171205)
 
 - Floating point math

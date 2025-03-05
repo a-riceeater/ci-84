@@ -7,4 +7,4 @@ This repository contains CAD files, KiCad project files, and firmware for the ca
 
 - As of 3/5/25, the microcontroller will be a **STM32H723ZGT6**
 
-- 
+- Floating point math

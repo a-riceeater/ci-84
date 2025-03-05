@@ -5,5 +5,6 @@ This repository contains CAD files, KiCad project files, and firmware for the ca
 
 ## Hardware Specifications
 
-- As of 3/5/25, the microcontroller will be a *STM32U5 series*
+- As of 3/5/25, the microcontroller will be a **STM32H723ZGT6**
+
 - 

@@ -3883,10 +3883,10 @@
 		(uuid "2eb47ff6-07f3-4325-b1cc-42d78122cf7e")
 	)
 	(junction
-		(at 228.6 160.02)
+		(at 209.55 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "318cd58c-ce95-4d70-b093-08a5cefa6538")
+		(uuid "3e616e0c-b92e-4feb-aa6d-562cd3638650")
 	)
 	(junction
 		(at 27.94 82.55)
@@ -3899,12 +3899,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3f84f126-b2d6-4f5f-8abd-eb9b43b7da90")
-	)
-	(junction
-		(at 209.55 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "42f90141-f702-4614-8514-6f69b7586b8f")
 	)
 	(junction
 		(at 228.6 212.09)
@@ -3983,6 +3977,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88780f6c-45fa-4fa1-83dd-0cfb0b80138b")
+	)
+	(junction
+		(at 228.6 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89056ce0-5a0a-4615-9d18-f7d04a5dfecb")
 	)
 	(junction
 		(at 180.34 170.18)
@@ -4105,12 +4105,6 @@
 		(uuid "ae1c4a47-eda6-4bc7-951f-ea2b2b2bdba0")
 	)
 	(junction
-		(at 252.73 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ae1d2470-103c-4518-a22c-65624fa68826")
-	)
-	(junction
 		(at 59.69 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4145,6 +4139,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d121a943-e17a-433f-9c36-e27e67d40e21")
+	)
+	(junction
+		(at 252.73 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2adfefd-f0ea-4a4e-96fe-de9611e51db2")
 	)
 	(junction
 		(at 218.44 186.69)
@@ -4566,7 +4566,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 160.02) (xy 209.55 160.02)
+			(xy 190.5 161.29) (xy 209.55 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4636,16 +4636,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 160.02) (xy 271.78 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e684437-293f-434f-8547-d6faeccccd8d")
-	)
-	(wire
-		(pts
 			(xy 261.62 153.67) (xy 261.62 170.18)
 		)
 		(stroke
@@ -4656,6 +4646,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 161.29) (xy 228.6 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63b911c3-8c69-499b-b1bc-b8bd16a4c335")
+	)
+	(wire
+		(pts
 			(xy 190.5 68.58) (xy 209.55 68.58)
 		)
 		(stroke
@@ -4663,16 +4663,6 @@
 			(type default)
 		)
 		(uuid "6778aea1-d18c-4b44-a6b4-f04beeea2c55")
-	)
-	(wire
-		(pts
-			(xy 209.55 160.02) (xy 228.6 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c8829b5-f95c-4cb2-b976-7caca73c7eb6")
 	)
 	(wire
 		(pts
@@ -4763,6 +4753,16 @@
 			(type default)
 		)
 		(uuid "86fc05a4-f2d4-412f-9766-cddf899262db")
+	)
+	(wire
+		(pts
+			(xy 228.6 161.29) (xy 252.73 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8833e6c7-4d4a-47de-a61b-f05dd27e0f7d")
 	)
 	(wire
 		(pts
@@ -5066,16 +5066,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 160.02) (xy 252.73 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8afebd4-a599-4d72-91a4-78f545067ab6")
-	)
-	(wire
-		(pts
 			(xy 180.34 186.69) (xy 180.34 204.47)
 		)
 		(stroke
@@ -5093,6 +5083,16 @@
 			(type default)
 		)
 		(uuid "ce460665-3b5c-4bbe-8fa1-15faa7479873")
+	)
+	(wire
+		(pts
+			(xy 252.73 161.29) (xy 271.78 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfc75814-2332-441c-a167-995d61d3995b")
 	)
 	(wire
 		(pts
@@ -8203,7 +8203,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 190.5 156.21 90)
+		(at 190.5 157.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8212,7 +8212,7 @@
 		(fields_autoplaced yes)
 		(uuid "438ad681-526d-433f-98f4-f1a9007cda2d")
 		(property "Reference" "D27"
-			(at 193.04 154.9399 90)
+			(at 193.04 156.2099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8221,7 +8221,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 193.04 157.4799 90)
+			(at 193.04 158.7499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8230,7 +8230,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 190.5 156.21 0)
+			(at 190.5 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8239,7 +8239,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 156.21 0)
+			(at 190.5 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8248,7 +8248,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 190.5 156.21 0)
+			(at 190.5 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8257,7 +8257,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 190.5 156.21 0)
+			(at 190.5 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8266,7 +8266,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 190.5 156.21 0)
+			(at 190.5 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9453,7 +9453,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 271.78 156.21 90)
+		(at 271.78 157.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9462,7 +9462,7 @@
 		(fields_autoplaced yes)
 		(uuid "5cd88518-9635-4026-8ce7-a0a32136d612")
 		(property "Reference" "D31"
-			(at 274.32 154.9399 90)
+			(at 274.32 156.2099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9471,7 +9471,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 274.32 157.4799 90)
+			(at 274.32 158.7499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9480,7 +9480,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 271.78 156.21 0)
+			(at 271.78 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9489,7 +9489,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 271.78 156.21 0)
+			(at 271.78 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9498,7 +9498,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 271.78 156.21 0)
+			(at 271.78 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9507,7 +9507,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 271.78 156.21 0)
+			(at 271.78 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9516,7 +9516,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 271.78 156.21 0)
+			(at 271.78 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9697,7 +9697,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 252.73 156.21 90)
+		(at 252.73 157.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9706,7 +9706,7 @@
 		(fields_autoplaced yes)
 		(uuid "620d1f4b-5529-4ef4-aae3-a047344f16e5")
 		(property "Reference" "D30"
-			(at 255.27 154.9399 90)
+			(at 255.27 156.2099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9715,7 +9715,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 255.27 157.4799 90)
+			(at 255.27 158.7499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9724,7 +9724,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 252.73 156.21 0)
+			(at 252.73 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9733,7 +9733,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 252.73 156.21 0)
+			(at 252.73 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9742,7 +9742,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 252.73 156.21 0)
+			(at 252.73 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9751,7 +9751,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 252.73 156.21 0)
+			(at 252.73 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9760,7 +9760,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 252.73 156.21 0)
+			(at 252.73 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15469,7 +15469,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 209.55 156.21 90)
+		(at 209.55 157.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15478,7 +15478,7 @@
 		(fields_autoplaced yes)
 		(uuid "df1aace7-7651-419e-9ba7-3f3c7c376d96")
 		(property "Reference" "D28"
-			(at 212.09 154.9399 90)
+			(at 212.09 156.2099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15487,7 +15487,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 212.09 157.4799 90)
+			(at 212.09 158.7499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15496,7 +15496,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 209.55 156.21 0)
+			(at 209.55 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15505,7 +15505,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 209.55 156.21 0)
+			(at 209.55 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15514,7 +15514,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 209.55 156.21 0)
+			(at 209.55 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15523,7 +15523,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 209.55 156.21 0)
+			(at 209.55 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15532,7 +15532,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 209.55 156.21 0)
+			(at 209.55 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15557,7 +15557,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 228.6 156.21 90)
+		(at 228.6 157.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15566,7 +15566,7 @@
 		(fields_autoplaced yes)
 		(uuid "e4658ebc-d60b-4b00-8654-8d2a436a1765")
 		(property "Reference" "D29"
-			(at 231.14 154.9399 90)
+			(at 231.14 156.2099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15575,7 +15575,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 231.14 157.4799 90)
+			(at 231.14 158.7499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15584,7 +15584,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 228.6 156.21 0)
+			(at 228.6 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15593,7 +15593,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 156.21 0)
+			(at 228.6 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15602,7 +15602,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 228.6 156.21 0)
+			(at 228.6 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15611,7 +15611,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 228.6 156.21 0)
+			(at 228.6 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15620,7 +15620,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 228.6 156.21 0)
+			(at 228.6 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)

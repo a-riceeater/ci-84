@@ -31488,7 +31488,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C11"
-			(at 0.245 -1.94 360)
+			(at 0.245 -1.94 0)
 			(layer "B.SilkS")
 			(uuid "ce498bf3-a17e-4945-82d5-4daa641440ed")
 			(effects
@@ -31500,7 +31500,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 0 -1.68 360)
+			(at 0 -1.68 0)
 			(layer "B.Fab")
 			(uuid "f0d1edc6-5fe6-4791-9a11-857929d9bbb0")
 			(effects
@@ -31659,7 +31659,7 @@
 			(uuid "a239f322-ac60-4389-a509-e986e239826a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "2fcb5712-d195-4a33-b152-a7ae1dee1876")
 			(effects
@@ -39529,26 +39529,5 @@
 		(layer "F.Cu")
 		(net 132)
 		(uuid "ff952fb6-05c4-42cc-b6bd-96504aabf638")
-	)
-	(zone
-		(net 2)
-		(net_name "GND")
-		(layers "F&B.Cu")
-		(uuid "5b07a6ea-3b15-4025-b0e1-36825883d736")
-		(hatch edge 0.5)
-		(connect_pads
-			(clearance 0.2)
-		)
-		(min_thickness 0.25)
-		(filled_areas_thickness no)
-		(fill
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-		)
-		(polygon
-			(pts
-				(xy 220.85 81.225) (xy 339.4 83.95) (xy 343.775 292.75) (xy 218.675 291.65)
-			)
-		)
 	)
 )

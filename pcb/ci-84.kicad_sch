@@ -5463,7 +5463,7 @@
 		(uuid "00ecba98-2cdb-48fe-964e-37f3e3628f22")
 	)
 	(label "SPI_MISO"
-		(at 41.91 110.49 180)
+		(at 41.91 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5483,7 +5483,7 @@
 		(uuid "0d71b491-249e-44de-9d02-29a467f5f65a")
 	)
 	(label "TS_MOSI"
-		(at 77.47 77.47 0)
+		(at 77.47 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5525,7 +5525,7 @@
 		(uuid "15ce8b94-8eb3-4f7d-9b98-845a78c7e4a8")
 	)
 	(label "SPI3_SCK"
-		(at 41.91 107.95 180)
+		(at 41.91 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5555,7 +5555,7 @@
 		(uuid "2355eba6-e7e9-479a-aaa8-eb0d3e7dc7ce")
 	)
 	(label "SPI3_MOSI"
-		(at 41.91 113.03 180)
+		(at 41.91 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5605,7 +5605,7 @@
 		(uuid "3da06bb0-1a5f-4a3e-9b80-07e32deba33d")
 	)
 	(label "TS_CS"
-		(at 77.47 95.25 0)
+		(at 77.47 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5645,16 +5645,6 @@
 			(justify left bottom)
 		)
 		(uuid "5b7694bf-92e4-44a9-afb1-0181c56748fa")
-	)
-	(label "SPI_CS"
-		(at 77.47 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5ba0329f-d6f7-4e53-86f7-5727e0352da0")
 	)
 	(label "SPI_CS"
 		(at 139.7 85.09 0)
@@ -5707,7 +5697,7 @@
 		(uuid "8a776a05-0a6a-4327-a75b-a6fe12f8eb4e")
 	)
 	(label "TS_MISO"
-		(at 77.47 74.93 0)
+		(at 77.47 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5759,12 +5749,12 @@
 		(uuid "9bbe8e93-e272-429e-8bf9-32bd80a5eb70")
 	)
 	(label "SCREEN_RST"
-		(at 77.47 90.17 0)
+		(at 41.91 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "a1050a76-404e-45cd-8301-a8cb03c311a9")
 	)
@@ -5799,12 +5789,12 @@
 		(uuid "a838656a-cda5-4ba0-b3d3-dd582f0951e2")
 	)
 	(label "IO_DC"
-		(at 41.91 115.57 180)
+		(at 77.47 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "a8e6b401-1cbb-421f-a803-e16d364539c3")
 	)
@@ -5829,7 +5819,7 @@
 		(uuid "ae067082-0391-44fe-b339-3559c356f4e4")
 	)
 	(label "TS_CK"
-		(at 77.47 72.39 0)
+		(at 77.47 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5847,6 +5837,16 @@
 			(justify left bottom)
 		)
 		(uuid "bad85775-41a2-4076-926a-44fa4b82a279")
+	)
+	(label "SPI_CS"
+		(at 41.91 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bba79113-f726-4fce-a0db-bf44334774b6")
 	)
 	(label "TS_CK"
 		(at 139.7 67.31 0)
@@ -5965,7 +5965,7 @@
 		(uuid "ed8222d8-c292-423a-9911-5005fe9f4a55")
 	)
 	(label "IO_LED"
-		(at 41.91 105.41 180)
+		(at 41.91 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)

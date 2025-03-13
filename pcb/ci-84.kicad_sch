@@ -5494,6 +5494,36 @@
 		)
 		(uuid "0fa918e6-d744-408a-8aa5-18dbe1820930")
 	)
+	(label "r2"
+		(at 77.47 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "113948e2-089c-4a5e-a19f-b8b9f123ad09")
+	)
+	(label "r7"
+		(at 77.47 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "15c1828d-6101-483a-b1d0-3600784687c3")
+	)
+	(label "c2"
+		(at 77.47 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "15ce8b94-8eb3-4f7d-9b98-845a78c7e4a8")
+	)
 	(label "SPI3_SCK"
 		(at 41.91 107.95 180)
 		(effects
@@ -5503,6 +5533,16 @@
 			(justify right bottom)
 		)
 		(uuid "1cafbf9a-4dfb-42ee-bc5e-663f6fe74e66")
+	)
+	(label "r8"
+		(at 77.47 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "20abf829-b072-40a6-9357-361f9b8d89ff")
 	)
 	(label "c5"
 		(at 261.62 41.91 180)
@@ -5524,6 +5564,16 @@
 		)
 		(uuid "25ef946d-ba78-4686-821d-9caa9a134ce2")
 	)
+	(label "c1"
+		(at 77.47 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "263301cf-56dd-4ff4-a340-b0d2aeb02d5a")
+	)
 	(label "c4"
 		(at 242.57 41.91 180)
 		(effects
@@ -5544,6 +5594,16 @@
 		)
 		(uuid "397c8e22-87f0-48a3-b189-4bcf621b6357")
 	)
+	(label "c5"
+		(at 41.91 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3da06bb0-1a5f-4a3e-9b80-07e32deba33d")
+	)
 	(label "TS_CS"
 		(at 77.47 95.25 0)
 		(effects
@@ -5556,6 +5616,16 @@
 		)
 		(uuid "41e5954f-b14e-41a3-b26e-dbd66f6ea7b1")
 	)
+	(label "r6"
+		(at 77.47 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5017641f-e03c-4148-9a6c-daa0a7c2825d")
+	)
 	(label "r8"
 		(at 271.78 177.8 0)
 		(effects
@@ -5565,6 +5635,16 @@
 			(justify left bottom)
 		)
 		(uuid "56283046-8e4c-4292-88cd-28486ce378f8")
+	)
+	(label "r10"
+		(at 77.47 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5b7694bf-92e4-44a9-afb1-0181c56748fa")
 	)
 	(label "SPI_CS"
 		(at 77.47 92.71 0)
@@ -5606,6 +5686,26 @@
 		)
 		(uuid "669aab60-5ceb-42cb-86d4-ce659650ef8e")
 	)
+	(label "r4"
+		(at 77.47 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7cf7cbed-72dc-4ed4-b58b-bb1bf1312b4f")
+	)
+	(label "c3"
+		(at 77.47 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a776a05-0a6a-4327-a75b-a6fe12f8eb4e")
+	)
 	(label "TS_MISO"
 		(at 77.47 74.93 0)
 		(effects
@@ -5617,6 +5717,16 @@
 			(justify left bottom)
 		)
 		(uuid "8caf8dcb-dc04-4410-98fb-42648a35c508")
+	)
+	(label "r1"
+		(at 77.47 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e7094a0-4d48-47aa-8146-d61541fcdcf1")
 	)
 	(label "r10"
 		(at 271.78 212.09 0)
@@ -5668,6 +5778,16 @@
 		)
 		(uuid "a2ce7363-97bb-4206-ac11-7826a693ee45")
 	)
+	(label "c4"
+		(at 41.91 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a59b808f-c68a-469c-954a-d51f0d222796")
+	)
 	(label "IO_DC"
 		(at 139.7 80.01 0)
 		(effects
@@ -5687,6 +5807,16 @@
 			(justify right bottom)
 		)
 		(uuid "a8e6b401-1cbb-421f-a803-e16d364539c3")
+	)
+	(label "r3"
+		(at 41.91 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aaedb39d-5ea4-4a08-9b8e-3a84750ec09f")
 	)
 	(label "r1"
 		(at 271.78 49.53 0)
@@ -5750,6 +5880,16 @@
 		)
 		(uuid "cf3f0090-4e8b-46e8-8795-4a4e3965fa8e")
 	)
+	(label "r5"
+		(at 77.47 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d110d33e-02cc-4f38-9863-2db2808d80d0")
+	)
 	(label "SCREEN_RST"
 		(at 139.7 82.55 0)
 		(effects
@@ -5779,6 +5919,16 @@
 			(justify left bottom)
 		)
 		(uuid "d775dc9d-057e-44bd-b650-e5b6b1b5f016")
+	)
+	(label "r9"
+		(at 77.47 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e102d3c9-0637-40c0-a2a1-9f7fda5c1f37")
 	)
 	(label "TS_MOSI"
 		(at 139.7 62.23 0)

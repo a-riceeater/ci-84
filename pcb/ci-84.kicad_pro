@@ -466,7 +466,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../../Downloads/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "ci-84.step",
@@ -578,6 +578,22 @@
     [
       "0b7262f7-34ed-452e-a3c4-c9809bda865d",
       "Root"
+    ],
+    [
+      "32642633-b8a0-48b7-882c-14a28f5f500d",
+      "Keyboard Matrix"
+    ],
+    [
+      "1fad3f3c-bafb-44ce-b0c7-28ae9ae544ae",
+      "Screen"
+    ],
+    [
+      "3da165ec-0e7f-4890-a15d-421415d4f315",
+      "Voltage Regulator"
+    ],
+    [
+      "67d503ae-58d3-47f7-9982-8bafd44c1a08",
+      "stm32"
     ]
   ],
   "text_variables": {}

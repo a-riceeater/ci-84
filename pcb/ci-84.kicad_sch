@@ -5482,6 +5482,16 @@
 		)
 		(uuid "0237a740-fa26-4a04-9d63-cd6b540eac57")
 	)
+	(label "SWCLK"
+		(at 90.17 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0800b1a2-8726-4e66-ba2a-bafaca1ada24")
+	)
 	(label "r6"
 		(at 384.81 139.7 0)
 		(effects
@@ -5778,6 +5788,16 @@
 		)
 		(uuid "a2ce7363-97bb-4206-ac11-7826a693ee45")
 	)
+	(label "SWDIO"
+		(at 90.17 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a52fb093-b570-485a-a038-ca606163cad1")
+	)
 	(label "c4"
 		(at 54.61 168.91 180)
 		(effects
@@ -5799,7 +5819,7 @@
 		(uuid "a838656a-cda5-4ba0-b3d3-dd582f0951e2")
 	)
 	(label "IO_DC"
-		(at 90.17 143.51 0)
+		(at 90.17 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
